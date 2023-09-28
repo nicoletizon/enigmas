@@ -1,9 +1,9 @@
-﻿<Window x:Class="enigs.MainWindow"
+﻿<Window x:Class="Enigma_UI.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:enigs"
+        xmlns:local="clr-namespace:Enigma_UI"
         mc:Ignorable="d"
         Title="Enigma Input" Height="404" Width="621">
     <Grid>
@@ -168,7 +168,7 @@
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"/>
 
-        <Label x:Name="equals" 
+        <Label x:Name="equal" 
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="="
@@ -337,7 +337,7 @@
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"/>
 
-        <Label x:Name="openBracket" 
+        <Label x:Name="l_bracket" 
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="["
@@ -350,7 +350,7 @@
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"/>
 
-        <Label x:Name="closeBracket" 
+        <Label x:Name="r_bracket" 
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="]"
@@ -363,7 +363,7 @@
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"/>
 
-        <Label x:Name="backslash" 
+        <Label x:Name="b_slash" 
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="\"
@@ -509,7 +509,7 @@
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"/>
-        <Label x:Name="singleQuote" 
+        <Label x:Name="quotation" 
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="'"
@@ -617,7 +617,7 @@
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"/>
-        <Label x:Name="comma" 
+        <Label x:Name="coma" 
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content=","
@@ -629,7 +629,7 @@
             BorderThickness="1" 
             HorizontalContentAlignment="Center"
             VerticalContentAlignment="Center"/>
-        <Label x:Name="period" 
+        <Label x:Name="dot" 
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Content="."
